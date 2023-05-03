@@ -1,0 +1,26 @@
+{
+    "name": "BiztechEG/laravelBostaIntegrationn",
+    "description": "add easy integration with bosta company",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amr Abd-Rabou",
+            "email": "amrsoft13@gmail.com"
+        },
+        {
+            "name": "Hamza Salah",
+            "email": "enghamza203@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/Helppers/BostaHelper.php"
+        ],
+        "psr-4": {
+            "BiztechEG\\laravelBostaIntegrationn\\": "src/"
+        }
+    }
+}
